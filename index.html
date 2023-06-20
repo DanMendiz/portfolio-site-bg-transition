@@ -40,7 +40,7 @@
     <link rel="stylesheet" href="styles/styles.css" />
   </head>
   <body>
-    <div class="container">
+    <div class="container" id="home">
       <!-- SECTION 1 -->
       <section class="section-1">
         <!-- Navbar -->
@@ -101,13 +101,13 @@
             <!-- About me btn -->
             <div class="btn-container">
               <div class="about-btn">
-                <a class="about-me-link" href="#about-me">Projects</a>
+                <a class="about-me-link" href="#projects">Projects</a>
               </div>
               <div class="about-btn">
                 <a class="about-me-link" href="#about-me">About Me</a>
               </div>
               <div class="about-btn">
-                <a class="about-me-link" href="#about-me">Contact</a>
+                <a class="about-me-link" href="#contact">Contact</a>
               </div>
             </div>
           </div>
@@ -181,35 +181,24 @@
     </div>
 
     <!-- SECTION 2 -->
-
-    <!-- About me -->
-    <section class="sub-section" id="about-me">
-      <div class="information">
-        <h2>About Me</h2>
-        <p>Hello, my name is Dan Mendiz. I'm a Software Developer.</p>
-      </div>
-      <div class="headshot-container">
-        <img
-          class="headshot"
-          src="/images/profile pic.jpg"
-          alt="Dan Mendiz headshot"
-        />
-      </div>
-    </section>
     <!-- Projects -->
-    <section class="sub-section-alt" id="projects">
+    <section class="sub-section-projects" id="projects">
+      <div class="home-btn">
+        <a href="#home"><button>home</button></a>
+      </div>
       <h2>Projects</h2>
+
       <div class="project-container">
         <!-- Project One -->
         <div class="project-card">
           <img
             class="project-image"
-            src="images/language-icons/html-5.png"
+            src="images/tech-icons/html-5.png"
             alt="html 5 icon"
           />
           <img
             class="project-image"
-            src="images/language-icons/css.png"
+            src="images/tech-icons/css.png"
             alt="css icon"
           />
           <h3>Project One</h3>
@@ -232,7 +221,7 @@
         <div class="project-card">
           <img
             class="project-image"
-            src="images/language-icons/js-icon.png"
+            src="images/tech-icons/js-icon.png"
             alt="Project Two"
           />
           <h3>Project Two</h3>
@@ -255,12 +244,12 @@
         <div class="project-card">
           <img
             class="project-image"
-            src="images/language-icons/react-logo.png"
+            src="images/tech-icons/react2.png"
             alt="React logo Three"
           />
           <img
             class="project-image"
-            src="images/language-icons/redux-icon.png"
+            src="images/tech-icons/redux-icon.png"
             alt="Redux logo"
           />
           <h3>Project Three</h3>
@@ -283,12 +272,12 @@
         <div class="project-card">
           <img
             class="project-image"
-            src="images/language-icons/nodejs-icon.svg"
+            src="images/tech-icons/nodejs-2.svg"
             alt="Project Four"
           />
           <img
             class="project-image"
-            src="images/language-icons/database.png"
+            src="images/tech-icons/mongodb-icon-1.svg"
             alt="Project Four"
           />
 
@@ -310,7 +299,40 @@
         </div>
       </div>
     </section>
+    <!-- End of Projects -->
     <!-- END OF SECTION 2 -->
+
+    <!-- SECTION 3 -->
+    <!-- About me -->
+    <section class="sub-section-about" id="about-me">
+      <div class="information">
+        <h2>About Me</h2>
+        <br />
+        <p>
+          Hi, my name is Dan Mendiz, I'm a Software Developer. I've been
+          intersted in building websites for a while, and in 2022 I decided to
+          retrain as a Software Developer and Full Stack Developer at The Jump
+          Digital School.
+        </p>
+        <br />
+        <p>
+          My background before Tech was mainly in Music Technology and the
+          Service Industry.
+        </p>
+        <br />
+        <p>I'm looking for work and opportunities to learn.</p>
+        <br />
+        <p>Feel free to contact me below.</p>
+      </div>
+      <div class="headshot-container">
+        <img
+          class="headshot"
+          src="/images/profile_pic-removebg-preview.png"
+          alt="Dan Mendiz headshot"
+        />
+      </div>
+    </section>
+    <!-- END OF SECTION 3 -->
 
     <script src="script.js"></script>
   </body>

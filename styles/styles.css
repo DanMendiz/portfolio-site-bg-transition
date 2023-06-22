@@ -222,6 +222,17 @@ li {
 /* ----------- End of Section-1 ----------- */
 
 /* ---------- Section-2 -------------*/
+/* ----------- Tools & Skills */
+.tools-container{
+  width: 100%;
+  height: 100%;
+}
+
+
+
+/* ---------- End Of Section-2 -------------*/
+
+/* ---------- Section-3 -------------*/
 /* ----------- Projects */
 
 .sub-section-projects {
@@ -231,12 +242,11 @@ li {
   padding: 80px;
 }
 
-.home-btn{
+.home-btn {
   display: flex;
   flex-direction: row;
   text-align: left;
 }
-
 
 .project-container {
   display: flex;
@@ -245,12 +255,12 @@ li {
 }
 
 .project-card {
-  width: 300px;
-  height: 500px;
+  width: 30rem;
+  height: 50rem;
   /* border: black 1px solid; */
   box-shadow: 5px 5px 20px 0px rgb(197, 193, 193);
   border-radius: 2.5%;
-  margin: 10px;
+  margin: 1rem;
 }
 
 .project-card:hover {
@@ -258,20 +268,20 @@ li {
 }
 
 .project-image {
-  margin-top: 25px;
-  width: 80px;
-  height: 80px;
+  margin-top: 2.5rem;
+  width: 8rem;
+  height: 8rem;
 }
 
 /* ---------- End of projects -------------*/
-/* ----------- End of Section-2 ----------- */
+/* ----------- End of Section-3 ----------- */
 
-/* ---------- Section-3 -------------*/
+/* ---------- Section-4 -------------*/
 /* About me */
 .sub-section-about {
   display: flex;
   justify-content: space-around;
-  padding: 80px;
+  padding: 8rem;
 }
 
 .headshot-container {
@@ -280,8 +290,8 @@ li {
 }
 
 .headshot {
-  width: 300px;
-  border-radius: 150px;
+  width: 30rem;
+  border-radius: 15rem;
   box-shadow: 5px 5px 20px 0px rgb(197, 193, 193);
   filter: opacity(80%);
 }

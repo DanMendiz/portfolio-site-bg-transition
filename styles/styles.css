@@ -223,12 +223,14 @@ li {
 
 /* ---------- Section-2 -------------*/
 /* ----------- Tools & Skills */
-.tools-container{
+.tools {
   width: 100%;
-  height: 100%;
+  height: 100vh;
+  border: orange 1px solid;
 }
 
-
+.tools-container {
+}
 
 /* ---------- End Of Section-2 -------------*/
 
@@ -236,6 +238,8 @@ li {
 /* ----------- Projects */
 
 .sub-section-projects {
+  width: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -279,6 +283,8 @@ li {
 /* ---------- Section-4 -------------*/
 /* About me */
 .sub-section-about {
+  width: 100%;
+  height: 100vh;
   display: flex;
   justify-content: space-around;
   padding: 8rem;
@@ -297,7 +303,15 @@ li {
 }
 
 /* End of About me */
-/* ----------- End of Section-3 ----------- */
+/* ----------- End of Section-4 ----------- */
+
+/* ----------- Section-5 ----------- */
+/* ----------- Contact ----------- */
+.contact-me {
+  width: 100%;
+  height: 100vh;
+}
+/* ----------- End of Section-5 ----------- */
 
 /* ------------- @MEDIA -------------------- */
 

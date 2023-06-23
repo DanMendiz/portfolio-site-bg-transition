@@ -280,6 +280,19 @@ li {
 /* ---------- End of projects -------------*/
 /* ----------- End of Section-3 ----------- */
 
+/* ---------- Section-3 -------------*/
+/* ----------- Tools & Skills */
+.tools {
+  width: 100%;
+  height: 100vh;
+  border: orange 1px solid;
+}
+
+.tools-container {
+}
+
+/* ---------- End Of Section-3 -------------*/
+
 /* ---------- Section-4 -------------*/
 /* About me */
 .sub-section-about {

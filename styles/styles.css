@@ -42,17 +42,27 @@ html {
 }
 
 /* ----------- Navbar ----------- */
+
 .nav-container {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
+  justify-content: space-evenly;
   /* background-color: #fff; */
-  /* border: orange 1px solid; */
+  border: orange 1px solid;
 }
 
-nav {
+
+.nav-icon-container{
   display: flex;
-  justify-content: space-between;
-  /* border: orange 1px solid; */
+  flex-direction: row;
+border: 1px red solid;
+}
+
+
+nav {
+  /* display: flex; */
+ 
+  border: orange 1px solid;
   /* color: orange; */
 }
 

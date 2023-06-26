@@ -47,7 +47,7 @@ html {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  border: orange 1px solid;
+  /* border: orange 1px solid; */
 }
 
 .nav-icon-container {
@@ -62,7 +62,7 @@ html {
 nav {
   /* display: flex; */
 
-  border: orange 1px solid;
+  /* border: orange 1px solid; */
   /* color: orange; */
 }
 
@@ -118,26 +118,28 @@ li {
 .hero-area {
   display: flex;
   flex-direction: column;
-  width: 50%;
-  height: 25%;
+  width: 100%;
+  height: 19.5rem;
   /* justify-content:baseline; */
   align-items: center;
   /* border: green 1px solid; */
 }
 
 .hero-text {
-  /* margin-left: 8rem; */
-  /* margin-bottom: 2rem; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-size: 5rem;
   /* border: rgb(255, 38, 0) 1px solid; */
   height: 20rem;
-  width: 60rem;
+  width: 90rem;
   color: #38598b;
   /* text-shadow: rgb(221, 211, 211) 5px 0 10px; */
 }
-/* .hero-h2{
-  margin-top: 1rem;
-} */
+
+.hero-h2 {
+  margin-top: 5rem;
+}
 
 /* ----------- End of Hero Area ----------- */
 
@@ -149,11 +151,11 @@ li {
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 52.7rem;
-  border: purple 1px solid;
+  height: 52.9rem;
+  /* border: purple 1px solid; */
   /* background-color: #fff; */
   background-image: url(/images/slideshow/section-1-bg-1.jpg);
-   clip-path: polygon(
+  clip-path: polygon(
     85% 6%,
     70% 15%,
     64% 14%,
@@ -168,8 +170,7 @@ li {
     100% 100%,
     100% 48%,
     100% 0%
-  ); 
-
+  );
 }
 
 .home-card-container {
@@ -179,11 +180,10 @@ li {
   align-items: center;
   justify-content: center;
   justify-content: space-evenly;
-  border: red 1px solid;
+  /* border: red 1px solid; */
   /* background-color: #e7eaf6; */
   /* border-radius: 30%; */
   /* box-shadow: 5px 5px 20px 0px rgb(197, 193, 193); */
-  
 }
 
 .lower-card {
@@ -198,8 +198,7 @@ li {
   background: url(/images/slideshow/section-1-bg-3.jpg);
   border-radius: 100%;
   margin: 1rem;
-  border: red 1px solid;
- 
+  /* border: red 1px solid; */
 }
 
 .lower-h3 {

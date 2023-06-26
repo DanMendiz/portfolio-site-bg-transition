@@ -15,11 +15,11 @@ html {
   font-size: 62.5%;
 }
 
-/* .center {
+.center {
   display: flex;
   justify-content: center;
   align-items: center;
-} */
+}
 
 /* :root {
   --primary-color: #6edae6;
@@ -186,6 +186,8 @@ li {
   /* box-shadow: 5px 5px 20px 0px rgb(197, 193, 193); */
 }
 
+
+
 .lower-card {
   display: flex;
   flex-direction: column;
@@ -198,36 +200,51 @@ li {
   background: url(/images/slideshow/section-1-bg-3.jpg);
   border-radius: 100%;
   margin: 1rem;
-  /* border: red 1px solid; */
+  border: red 1px solid;
 }
 
 .lower-h3 {
   /* display: block; */
-  margin-left: 3rem;
+  /* margin-left: 3rem; */
   /* margin-bottom: 5rem; */
-  font-size: 2rem;
+  font-size: 3rem;
+  /* border: #ec8b6b 1px solid; */
 }
 
-.lower-subtext {
+/* .lower-subtext {
   margin-left: 10rem;
+} */
+
+.h3-container{
+  margin-top: 6rem;
+
 }
 
-.lower-p {
-  margin-left: 1.5rem;
-}
 
-.p-container {
-  /* width: 100%; */
-  display: flex;
-  flex-direction: column;
+.p-container1 {
+  width: 80%;
+ 
   padding: 1rem;
-  align-items: center;
+  border: #ec8b6b 1px solid;
+}
+
+.p-container2{
+  width: 80%;
+ 
+  padding: 1rem;
   border: #ec8b6b 1px solid;
 }
 
 .lower-link {
-  color: #ef744b;
+  font-weight: 600;
+  color: #38598b;
 }
+
+.lower-text {
+  font-size: 2rem;
+  }
+
+
 
 /* ----------- End of Lower home section ----------- */
 

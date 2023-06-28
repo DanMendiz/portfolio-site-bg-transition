@@ -186,8 +186,6 @@ li {
   /* box-shadow: 5px 5px 20px 0px rgb(197, 193, 193); */
 }
 
-
-
 .lower-card {
   display: flex;
   flex-direction: column;
@@ -204,7 +202,7 @@ li {
   /* color: #38598b; */
 }
 
-.lower-card:hover{
+.lower-card:hover {
   box-shadow: 5px 5px 20px 0px rgb(56, 17, 17);
   text-shadow: 1px 1px 2px #fff;
   border: none;
@@ -212,7 +210,13 @@ li {
 
   /* background: url(/images/slideshow/section-1-bg-4.jpg); */
   /* color: #e7eaf6; */
+}
 
+.h3-container {
+  /* margin-top: 6rem; */
+  width: 21rem;
+  height: 7rem;
+  padding-top: 2rem;
 }
 
 .lower-h3 {
@@ -227,21 +231,13 @@ li {
   margin-left: 10rem;
 } */
 
-.h3-container{
-  margin-top: 6rem;
-
-}
-
-
 .p-container {
+  width: 20rem;
+  height: 11rem;
 
-  width: 80%;
- 
   padding: 1rem;
   /* border: #ec8b6b 1px solid; */
 }
-
-
 
 .lower-link {
   font-weight: 600;
@@ -250,13 +246,17 @@ li {
 
 .lower-text {
   font-size: 2rem;
-  }
+}
 
-  .prj-icon {
-    height: 9rem;
-    width: 9rem;
-  }
+.prj-icon {
+  height: 10rem;
+  width: 10rem;
+}
 
+.lower-icon {
+  height: 9rem;
+  width: 9rem;
+}
 
 /* ----------- End of Lower home section ----------- */
 

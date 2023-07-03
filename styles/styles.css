@@ -60,13 +60,6 @@ html {
   /* padding-left: 10rem; */
 }
 
-nav {
-  /* display: flex; */
-
-  /* border: orange 1px solid; */
-  /* color: orange; */
-}
-
 .header-links {
   color: #38598b;
 }
@@ -91,12 +84,26 @@ ul.show {
   /* color: aliceblue; */
 }
 
+.list-child:hover{
+  /* box-shadow: 5px 5px 20px 0px rgb(56, 17, 17); */
+  text-shadow: 1px 1px 1px #38598b;
+  /* border: none;
+  zoom: 105%; */
+}
+
 .list-child-2 {
   width: 20rem;
   padding-left: 3rem;
   text-decoration: none;
   /* border: orange 1px solid; */
   /* color: aliceblue; */
+}
+
+.list-child-2:hover{
+  /* box-shadow: 5px 5px 20px 0px rgb(56, 17, 17); */
+  text-shadow: 1px 1px 1px #38598b;
+  /* border: none;
+  zoom: 105%; */
 }
 
 .hamburger {

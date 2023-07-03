@@ -287,7 +287,7 @@ ul.show {
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding: 8rem;
+  /* padding: 8rem; */
   background: url(/images/slideshow/section-1-bg-3.jpg);
 }
 
@@ -298,7 +298,8 @@ ul.show {
 }
 
 .project-container {
-  height: 70rem;
+  height: 95%;
+  width: 95%;
   display: flex;
   justify-content: space-around;
   align-items: center;

@@ -332,6 +332,7 @@ ul.show {
 .card-lower {
   border: orange 1px solid;
   height: 50%;
+  /* background-image: url(/images/nat-gal-screenshot.png); */
 }
 
 .project-card:hover {

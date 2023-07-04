@@ -84,7 +84,7 @@ ul.show {
   /* color: aliceblue; */
 }
 
-.list-child:hover{
+.list-child:hover {
   /* box-shadow: 5px 5px 20px 0px rgb(56, 17, 17); */
   text-shadow: 1px 1px 1px #38598b;
   /* border: none;
@@ -99,7 +99,7 @@ ul.show {
   /* color: aliceblue; */
 }
 
-.list-child-2:hover{
+.list-child-2:hover {
   /* box-shadow: 5px 5px 20px 0px rgb(56, 17, 17); */
   text-shadow: 1px 1px 1px #38598b;
   /* border: none;
@@ -310,13 +310,28 @@ ul.show {
 }
 
 .project-card {
-  width: 30rem;
-  height: 40rem;
+  width: 25%;
+  height: 90%;
   /* border: black 1px solid; */
   box-shadow: 5px 5px 20px 0px rgb(197, 193, 193);
   border-radius: 20%;
   margin: 1rem;
   background-color: #e7eaf6;
+}
+
+.card-upper {
+  height: 50%;
+  border: orange 1px solid;
+}
+
+.card-btn {
+  border-radius: 99%;
+  background-color: peachpuff;
+}
+
+.card-lower {
+  border: orange 1px solid;
+  height: 50%;
 }
 
 .project-card:hover {

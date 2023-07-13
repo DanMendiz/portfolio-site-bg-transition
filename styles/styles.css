@@ -314,7 +314,7 @@ ul.show {
   height: 90%;
   /* border: black 1px solid; */
   box-shadow: 5px 5px 20px 0px rgb(197, 193, 193);
-  border-radius: 20%;
+  border-radius: 7%;
   margin: 1rem;
   background-color: #e7eaf6;
 }

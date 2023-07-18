@@ -243,9 +243,10 @@ ul.show {
   /* border: #ec8b6b 1px solid; */
 }
 
-/* .lower-subtext {
-  margin-left: 10rem;
-} */
+.subtext {
+  font-size: 2rem;
+  font-weight: 500;
+} 
 
 .p-container {
   width: 20rem;
@@ -327,6 +328,10 @@ ul.show {
 .card-btn {
   border-radius: 99%;
   background-color: peachpuff;
+}
+
+.project-heading{
+  padding: 1rem;
 }
 
 .card-lower {

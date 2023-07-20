@@ -1,0 +1,9 @@
+@media (max-width: 600px) { /* applies from 600px down */
+  .product-list { 
+    flex-direction: row;
+  }
+  .product {
+      padding: 1em;
+      width: 50%;
+  }
+}

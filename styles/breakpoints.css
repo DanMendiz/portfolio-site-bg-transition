@@ -1,9 +1,9 @@
-@media (max-width: 600px) { /* applies from 600px down */
-  .product-list { 
-    flex-direction: row;
+@media (max-width: 600px) {
+  /* applies from 600px down */
+  .project-container {
+    flex-direction: column;
   }
-  .product {
-      padding: 1em;
-      width: 50%;
+  .project-card {
+    width: 70%;
   }
 }

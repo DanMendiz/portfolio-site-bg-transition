@@ -1,9 +1,47 @@
-@media (max-width: 600px) {
-  /* applies from 600px down */
+@media (max-width: 800px) {
   .project-container {
-    flex-direction: column;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+
+@media (min-width: 800px) {
+  /* applies from 800px up */
+  .sub-section-projects {
+    width: 100%;
+    height: 200vh;
+  }
+  .project-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* padding-top: 3rem; */
+    /* padding-bottom: 3rem; */
+    justify-content: center;
+    /* gap: 1rem; */
   }
   .project-card {
-    width: 70%;
+    width: 47%;
+    height: 48%;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* applies from 1200px up */
+  .sub-section-projects {
+    width: 100%;
+    height: 100vh;
+  }
+  .project-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1rem;
+    justify-content: center;
+    gap: 2rem;
+    align-content: space-around;
+    max-width: 2000px;
+  }
+  .project-card {
+    width: 23%;
+    height: 90%;
   }
 }

@@ -38,6 +38,7 @@ html {
   width: 100%;
   height: 100vh;
   background-image: url(/images/slideshow/section-1-bg-1.jpg);
+  /* background-image: linear-gradient(to right, #e7eaf6, #113f67); */
   background-color: grey;
   /* color: #000; */
 }
@@ -89,10 +90,7 @@ ul.show {
 }
 
 .list-child:hover {
-  /* box-shadow: 5px 5px 20px 0px rgb(56, 17, 17); */
-  text-shadow: 1px 1px 1px #38598b;
-  /* border: none;
-  zoom: 105%; */
+  text-shadow: 2px 2px 2px #0a0324;
 }
 
 .list-child-2 {
@@ -104,10 +102,7 @@ ul.show {
 }
 
 .list-child-2:hover {
-  /* box-shadow: 5px 5px 20px 0px rgb(56, 17, 17); */
-  text-shadow: 1px 1px 1px #38598b;
-  /* border: none;
-  zoom: 105%; */
+  text-shadow: 2px 2px 2px #0a0324;
 }
 
 .hamburger {

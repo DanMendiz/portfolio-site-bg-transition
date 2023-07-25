@@ -20,7 +20,8 @@
     /* gap: 1rem; */
   }
   .project-card {
-    width: 47%;
+    width: calc(50% - 1rem);
+    /* width: 50%; */
     height: 48%;
   }
 }

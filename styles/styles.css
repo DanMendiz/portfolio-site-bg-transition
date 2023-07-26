@@ -189,8 +189,8 @@ ul.show {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 11rem;
-  height: 11rem;
+  width: 15rem;
+  height: 15rem;
   /* border: black 1px solid; */
   /* box-shadow: 3px 0px 8px 0px rgb(56, 17, 17); */
   background: url(/images/slideshow/section-1-bg-3.jpg);
@@ -198,6 +198,23 @@ ul.show {
   /* margin: 1rem; */
   /* border: red 1px solid; */
   /* color: #38598b; */
+
+}
+
+.lower-1 {
+  animation-duration: 2s
+}
+
+.lower-2 {
+  animation-duration: 1s
+}
+
+.lower-3 {
+  animation-duration: 3s
+}
+
+.lower-4 {
+  animation-duration: 4s
 }
 
 .lower-card:hover {

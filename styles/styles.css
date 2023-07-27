@@ -154,6 +154,13 @@ ul.show {
   /* text-shadow: rgb(221, 211, 211) 5px 0 10px; */
 }
 
+.hero-h2 {
+  animation-duration: 1s;
+}
+
+.hero-p {
+  animation-duration: 2s;
+}
 /* ----------- End of Hero Area ----------- */
 
 /* ----------- Lower home section ----------- */
@@ -198,23 +205,22 @@ ul.show {
   /* margin: 1rem; */
   /* border: red 1px solid; */
   /* color: #38598b; */
-
 }
 
 .lower-1 {
-  animation-duration: 2s
+  animation-duration: 7s;
 }
 
 .lower-2 {
-  animation-duration: 1s
+  animation-duration: 6s;
 }
 
 .lower-3 {
-  animation-duration: 3s
+  animation-duration: 8s;
 }
 
 .lower-4 {
-  animation-duration: 4s
+  animation-duration: 9s;
 }
 
 .lower-card:hover {

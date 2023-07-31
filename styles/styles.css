@@ -208,19 +208,19 @@ ul.show {
 }
 
 .lower-1 {
-  animation-duration: 7s;
-}
-
-.lower-2 {
-  animation-duration: 6s;
-}
-
-.lower-3 {
   animation-duration: 8s;
 }
 
-.lower-4 {
+.lower-2 {
+  animation-duration: 7s;
+}
+
+.lower-3 {
   animation-duration: 9s;
+}
+
+.lower-4 {
+  animation-duration: 10s;
 }
 
 .lower-card:hover {

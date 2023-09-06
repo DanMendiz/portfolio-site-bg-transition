@@ -1,9 +1,4 @@
-@media (max-width: 800px) {
-  .project-container {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
-}
+/* section 1 breakpoints */
 
 @media (min-width: 200px) {
   .home-card-container {
@@ -23,7 +18,6 @@
     width: 11rem;
     height: 11rem;
   }
- 
 }
 
 @media (min-width: 500px) {
@@ -34,19 +28,7 @@
     width: 12rem;
     height: 12rem;
   }
- 
 }
-
-/* @media (min-width: 600px) {
-  .home-card-container {
-    width: 70%;
-  }
-  .lower-card {
-    width: 12rem;
-    height: 12rem;
-  }
- 
-} */
 
 @media (min-width: 700px) {
   .home-card-container {
@@ -86,13 +68,30 @@
   }
 }
 
-
 @media (min-width: 1200px) {
   /* applies from 1200px up */
   .sub-section-projects {
     width: 100%;
     height: 100vh;
   }
+
+  .lower-card {
+    width: 20rem;
+    height: 20rem;
+  }
+}
+
+/* section 2 breakpoints */
+@media (max-width: 800px) {
+  .project-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* applies from 1200px up */
+
   .project-container {
     flex-direction: row;
     flex-wrap: wrap;
@@ -106,9 +105,11 @@
     width: 23%;
     height: 90%;
   }
-
-  .lower-card {
-    width: 15rem;
-    height: 15rem;
-  }
 }
+
+/* section 3 breakpoints */
+
+
+
+/* section 4 breakpoints */
+

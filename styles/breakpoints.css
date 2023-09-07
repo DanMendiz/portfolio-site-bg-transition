@@ -1,4 +1,5 @@
-/* section 1 breakpoints */
+/* SECTION 1 breakpoints */
+/* homepage */
 
 @media (min-width: 200px) {
   .home-card-container {
@@ -80,8 +81,9 @@
     height: 20rem;
   }
 }
-
-/* section 2 breakpoints */
+/* ------------------------------------ */
+/* <!-- SECTION 2 breakpoints-->
+<!-- Projects --> */
 @media (max-width: 800px) {
   .project-container {
     padding-top: 2rem;
@@ -106,10 +108,55 @@
     height: 90%;
   }
 }
+/* ------------------------- */
+/* <!-- SECTION 3 breakpoints -->
+<!-- Tools & Skills --> */
 
-/* section 3 breakpoints */
+@media (min-width: 200px) {
+  /* applies from 200px up */
+}
 
+@media (min-width: 300px) {
+}
 
+@media (min-width: 500px) {
+}
 
-/* section 4 breakpoints */
+@media (min-width: 700px) {
+}
 
+@media (min-width: 800px) {
+}
+
+@media (min-width: 900px) {
+}
+
+@media (min-width: 1200px) {
+  /* applies from 1200px up */
+}
+
+/* ------------------------------ */
+/* <!-- SECTION 4 breakpoints -->
+<!-- About me --> */
+@media (min-width: 200px) {
+  /* applies from 200px up */
+}
+
+@media (min-width: 300px) {
+}
+
+@media (min-width: 500px) {
+}
+
+@media (min-width: 700px) {
+}
+
+@media (min-width: 800px) {
+}
+
+@media (min-width: 900px) {
+}
+
+@media (min-width: 1200px) {
+  /* applies from 1200px up */
+}

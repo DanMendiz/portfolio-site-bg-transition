@@ -39,6 +39,9 @@
 
 @media (min-width: 800px) {
   /* applies from 800px up */
+  .hero-text{
+    font-size: 3rem;
+  }
   .sub-section-projects {
     width: 100%;
     height: 200vh;
@@ -63,6 +66,7 @@
 }
 
 @media (min-width: 900px) {
+ 
   .lower-card {
     width: 16rem;
     height: 16rem;
@@ -88,6 +92,10 @@
 
 @media (min-width: 1200px) {
   /* applies from 1200px up */
+
+  .hero-text{
+    font-size: 5rem;
+  } 
   .sub-section-projects {
     width: 100%;
     height: 100vh;
@@ -137,7 +145,7 @@
     width: 9rem;
   }
   .lower-h3 {
-    font-size: 3rem;
+    font-size: 2.7rem;
   }
 
   .home-card-container {

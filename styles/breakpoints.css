@@ -1,23 +1,61 @@
 /* SECTION 1 breakpoints */
 /* homepage */
 
-@media (min-width: 200px) {
+@media (min-width: 100px) {
+  .home-card-container {
+    width: 60%;
+  }
+  .lower-card {
+    width: 6rem;
+    height: 6rem;
+  }
+  .prj-icon {
+    height: 2rem;
+    width: 2rem;
+  }
+
+  .lower-icon {
+    height: 2rem;
+    width: 2rem;
+  
+  }
+
+  .lower-h3 {
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 300px) {
+  .home-card-container {
+    width: 68%;
+  }
+  .lower-card {
+    width: 9rem;
+    height: 9rem;
+  }
+  .prj-icon {
+    height: 3rem;
+    width: 3rem;
+  }
+
+  .lower-icon {
+    height: 3rem;
+    width: 3rem;
+  
+  }
+
+  .lower-h3 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 400px) {
   .home-card-container {
     width: 60%;
   }
   .lower-card {
     width: 10rem;
     height: 10rem;
-  }
-}
-
-@media (min-width: 300px) {
-  .home-card-container {
-    width: 70%;
-  }
-  .lower-card {
-    width: 11rem;
-    height: 11rem;
   }
 }
 
@@ -28,6 +66,21 @@
   .lower-card {
     width: 12rem;
     height: 12rem;
+  }
+
+  .prj-icon {
+    height: 4rem;
+    width: 4rem;
+  }
+
+  .lower-icon {
+    height: 4rem;
+    width: 4rem;
+  
+  }
+
+  .lower-h3 {
+    font-size: 1.5rem;
   }
 }
 
@@ -131,8 +184,8 @@
 @media (min-width: 1400px) {
   /* applies from 1400px up */
   .lower-card {
-    width: 22rem;
-    height: 22rem;
+    width: 24rem;
+    height: 24rem;
   }
 
   .prj-icon {
@@ -145,7 +198,7 @@
     width: 9rem;
   }
   .lower-h3 {
-    font-size: 2.7rem;
+    font-size: 3rem;
   }
 
   .home-card-container {
@@ -155,6 +208,10 @@
 /* ------------------------------------ */
 /* <!-- SECTION 2 breakpoints-->
 <!-- Projects --> */
+@media (max-width: 400px) {
+
+}
+
 @media (max-width: 800px) {
   .project-container {
     padding-top: 2rem;

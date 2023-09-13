@@ -17,7 +17,6 @@
   .lower-icon {
     height: 2rem;
     width: 2rem;
-  
   }
 
   .lower-h3 {
@@ -41,7 +40,6 @@
   .lower-icon {
     height: 3rem;
     width: 3rem;
-  
   }
 
   .lower-h3 {
@@ -76,7 +74,6 @@
   .lower-icon {
     height: 4rem;
     width: 4rem;
-  
   }
 
   .lower-h3 {
@@ -92,7 +89,7 @@
 
 @media (min-width: 800px) {
   /* applies from 800px up */
-  .hero-text{
+  .hero-text {
     font-size: 3rem;
   }
   .sub-section-projects {
@@ -119,7 +116,6 @@
 }
 
 @media (min-width: 900px) {
- 
   .lower-card {
     width: 16rem;
     height: 16rem;
@@ -146,9 +142,9 @@
 @media (min-width: 1200px) {
   /* applies from 1200px up */
 
-  .hero-text{
+  .hero-text {
     font-size: 5rem;
-  } 
+  }
   .sub-section-projects {
     width: 100%;
     height: 100vh;
@@ -208,16 +204,32 @@
 /* ------------------------------------ */
 /* <!-- SECTION 2 breakpoints-->
 <!-- Projects --> */
-@media (max-width: 400px) {
 
-}
-
-@media (max-width: 800px) {
+@media (min-width: 200px) {
+  .subtext {
+    font-size: 1.3rem;
+    font-weight: 400;
+  }
   .project-container {
     padding-top: 2rem;
     padding-bottom: 2rem;
   }
 }
+
+@media (min-width: 400px) {
+  .subtext {
+    font-size: 1.7rem;
+    font-weight: 400;
+  }
+}
+
+@media (min-width: 500px) {
+  .subtext {
+    font-size: 1.9rem;
+    font-weight: 500;
+  }
+}
+
 
 @media (min-width: 1200px) {
   /* applies from 1200px up */

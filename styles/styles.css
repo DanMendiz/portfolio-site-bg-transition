@@ -353,6 +353,8 @@ ul.show {
 .nat-gal-img {
   padding: 1rem;
   /* border: black 1px solid; */
+  width: 92.5%;
+  height: 87.5%;
 }
 
 .project-card:hover {

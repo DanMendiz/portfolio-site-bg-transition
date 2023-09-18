@@ -230,7 +230,6 @@
   }
 }
 
-
 @media (min-width: 1200px) {
   /* applies from 1200px up */
 
@@ -245,24 +244,32 @@
   }
   .project-card {
     width: 23%;
-    height: 90%;
+    height: 98%;
   }
   .subtext {
     font-size: 1.6rem;
     font-weight: 500;
   }
+  .nat-gal-img {
+    padding-top: 1.5rem;
+    /* border: black 1px solid; */
+    width: 100%;
+    height: 80%;
+  }
 }
 
 @media (min-width: 1400px) {
-
   .subtext {
     font-size: 2.2rem;
     font-weight: 500;
   }
+  .project-card {
+    width: 23%;
+    height: 92%;
+  }
 }
 
 @media (min-width: 1500px) {
-
   .subtext {
     font-size: 2.5rem;
     font-weight: 500;

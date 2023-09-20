@@ -249,8 +249,15 @@ ul.show {
 }
 
 .subtext {
+  margin: 1rem;
   font-size: 2rem;
   font-weight: 500;
+}
+
+.codepen-text{
+  font-weight: 400;
+  font-size: 2rem;
+
 }
 
 .p-container {
@@ -355,6 +362,11 @@ ul.show {
   /* border: black 1px solid; */
   width: 92.5%;
   height: 80%;
+}
+
+.codepen-icon{
+  width: 3rem;
+  height: 3rem;
 }
 
 .project-card:hover {

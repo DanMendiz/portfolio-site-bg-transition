@@ -308,6 +308,7 @@ ul.show {
   display: flex;
   flex-direction: row;
   text-align: left;
+
 }
 
 .project-container {

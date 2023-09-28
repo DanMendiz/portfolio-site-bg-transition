@@ -358,6 +358,16 @@ ul.show {
   /* border-radius: 20%; */
 }
 
+.code-used-container{
+  display: flex;
+  flex: auto;
+}
+
+.coding-icon{
+  width: 3rem;
+  height: 3rem;
+}
+
 .nat-gal-img {
   padding: 1rem;
   /* border: black 1px solid; */

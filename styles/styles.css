@@ -307,7 +307,8 @@ ul.show {
   display: flex;
   border: blue 1px solid;
   width: 100%;
-  background-color: #38598b;
+  background-color: #b7e2ff;
+  padding: 1rem;
 }
 
 .home-icon-container {
@@ -323,7 +324,7 @@ ul.show {
 .home-icon {
   height: 4rem;
   width: 4rem;
-  z-index: 1000534543;
+  /* z-index: 1000534543; */
 }
 
 .projects-heading {
@@ -331,9 +332,16 @@ ul.show {
   border: green 1px solid;
 }
 
-.right-container{
+.icons-container {
+  display: flex;
+  justify-content: space-evenly;
   width: 20%;
   border: red 1px solid;
+}
+
+.section-icons {
+  height: 4rem;
+  width: 4rem;
 }
 
 .project-container {

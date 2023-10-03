@@ -303,6 +303,12 @@ ul.show {
   background: url(/images/slideshow/section-1-bg-3.jpg);
 }
 
+
+.home-icon{
+  height: 4rem;
+  width: 4rem;
+}
+
 .home-btn {
   display: flex;
   flex-direction: row;

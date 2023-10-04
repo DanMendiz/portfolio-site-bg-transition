@@ -305,9 +305,9 @@ ul.show {
 
 .projects-header {
   display: flex;
-  border: blue 1px solid;
+  /* border: blue 1px solid; */
   width: 100%;
-  background-color: #b7e2ff;
+  /* background-color: #16188a; */
   padding: 1rem;
 }
 
@@ -316,7 +316,7 @@ ul.show {
   /* flex-direction: row; */
   /* text-align: left; */
   width: 20%;
-  border: red 1px solid;
+  /* border: red 1px solid; */
   /* padding-top: 2rem; */
   /* z-index: 1000; */
 }
@@ -329,7 +329,7 @@ ul.show {
 
 .projects-heading {
   width: 60%;
-  border: green 1px solid;
+  /* border: green 1px solid; */
 }
 
 .icons-container {
@@ -343,6 +343,15 @@ ul.show {
   height: 4rem;
   width: 4rem;
 }
+
+/* .hide {
+  display: none;
+} */
+/* 
+.individual-icons:hover + .hide {
+  display: block;
+  color: red; */
+/* } */
 
 .project-container {
   height: 95%;

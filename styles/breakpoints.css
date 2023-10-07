@@ -230,6 +230,28 @@
   }
 }
 
+@media (min-width: 500px) {
+
+}
+
+@media (min-width: 800px) {
+  .section-icon-p{
+    display: block;
+    font-size: 1.3rem;
+  }
+  .icons-container {
+    padding-top: 1rem;
+    /* display: flex; */
+    justify-content: space-between;
+    width: 25%;
+    /* border: red 1px solid; */
+  }
+}
+
+
+
+
+
 @media (min-width: 1200px) {
   /* applies from 1200px up */
 

@@ -255,8 +255,8 @@ ul.show {
 }
 
 .codepen-text {
-  font-weight: 400;
-  font-size: 2rem;
+  font-weight: 500;
+  font-size: 1.5rem;
 }
 
 .p-container {
@@ -435,13 +435,14 @@ ul.show {
 }
 
 .anchor-container {
-  padding: 1rem;
+  /* padding: 1rem; */
   /* border-top: rgb(36, 25, 4) 1px solid; */
+    border: 2px solid purple;
 }
 
 .codepen-icon {
-  width: 3rem;
-  height: 3rem;
+  width: 2.5rem;
+  height: 2.5rem;
 }
 
 .github-link-icon {

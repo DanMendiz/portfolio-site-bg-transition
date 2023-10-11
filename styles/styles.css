@@ -41,7 +41,7 @@ html {
   height: 100vh;
   background-image: url(/images/slideshow/section-1-bg-1.jpg);
   /* background-image: linear-gradient(to right, #e7eaf6, #113f67); */
-  background-color: grey;
+  background-color: rgb(39, 167, 206);
   /* color: #000; */
 }
 

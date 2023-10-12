@@ -145,10 +145,7 @@
   .hero-text {
     font-size: 5rem;
   }
-  .sub-section-projects {
-    width: 100%;
-    height: 100vh;
-  }
+
 
   .lower-card {
     width: 20rem;
@@ -180,8 +177,8 @@
 @media (min-width: 1400px) {
   /* applies from 1400px up */
   .lower-card {
-    width: 24rem;
-    height: 24rem;
+    width: 22rem;
+    height: 22rem;
   }
 
   .prj-icon {
@@ -197,10 +194,21 @@
     font-size: 3rem;
   }
 
-  .home-card-container {
-    width: 65%;
-  }
+  /* .home-card-container {
+    width: 70%;
+  } */
 }
+
+@media (min-width: 1500px) {
+  /* applies from 1400px up */
+  .lower-card {
+    width: 23rem;
+    height: 23rem;
+  }
+
+}
+
+
 /* ------------------------------------ */
 /* <!-- SECTION 2 breakpoints-->
 <!-- Projects --> */
@@ -252,17 +260,22 @@
 
 
 
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
   /* applies from 1200px up */
+  .sub-section-projects {
+    width: 100%;
+    height: 100vh;
+  }
 
   .project-container {
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 1rem;
-    justify-content: center;
-    gap: 2rem;
-    align-content: space-around;
-    max-width: 2000px;
+    /* padding: 0.1rem; */
+    /* justify-content: center; */
+    gap: 1rem;
+    /* align-content: space-around; */
+    width: 100%;
+    /* max-width: 2000px; */
   }
   .project-card {
     width: 23%;

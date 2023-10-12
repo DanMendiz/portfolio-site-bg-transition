@@ -473,7 +473,7 @@ ul.show {
   margin-top: 2.5rem;
   width: 8rem;
   height: 8rem;
-  /* border: orange 1px solid; */
+  border: orange 1px solid;
 }
 
 /* ---------- End of projects -------------*/

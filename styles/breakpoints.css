@@ -266,7 +266,7 @@
     /* justify-content: center; */
     gap: 1rem;
     /* align-content: space-around; */
-    width: 100%;
+    width: 98%;
     max-width: 2000px;
 
     padding-top: 0.1rem;
@@ -283,7 +283,7 @@
   .project-card {
     width: calc(25% - 1rem);
     /* width: 50%; */
-    height: 98%;
+    height: 99%;
   }
 
   .subtext {

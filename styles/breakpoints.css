@@ -243,6 +243,11 @@
     display: block;
     font-size: 1.3rem;
   }
+
+  .projects-header{
+    width: 80%;
+    }
+  
   .icons-container {
     padding-top: 1rem;
     /* display: flex; */
@@ -277,7 +282,7 @@
     margin-top: 0.5rem;
     width: 6rem;
     height: 6rem;
-    border: orange 1px solid;
+    /* border: orange 1px solid; */
   }
 
   .project-card {
@@ -306,6 +311,15 @@
   .project-card {
  
     height: 92%;
+  }
+
+
+  .project-heading{
+
+  }
+
+  .icons-container{
+width: 20%;
   }
 
 }

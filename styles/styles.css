@@ -516,7 +516,7 @@ ul.show {
   filter: opacity(80%);
 }
 
-.contact-link{
+.contact-link {
   width: 3rem;
   height: 3rem;
 }
@@ -530,16 +530,6 @@ ul.show {
   width: 100%;
   height: 100vh;
 } */
-
-
-
-
-
-
-
-
-
-/* ----------- End of Section-5 ----------- */
 
 .form-container {
   position: relative;
@@ -591,7 +581,7 @@ ul.show {
 }
 
 .contact-form:before {
-  content: "";
+  content: '';
   position: absolute;
   width: 26px;
   height: 26px;
@@ -695,7 +685,7 @@ textarea.input {
 
 .input-container span:before,
 .input-container span:after {
-  content: "";
+  content: '';
   position: absolute;
   width: 10%;
   opacity: 0;
@@ -784,7 +774,7 @@ textarea.input {
 }
 
 .contact-info:before {
-  content: "";
+  content: '';
   position: absolute;
   width: 110px;
   height: 100px;
@@ -807,7 +797,7 @@ textarea.input {
 }
 
 .big-circle:after {
-  content: "";
+  content: '';
   position: absolute;
   width: 360px;
   height: 360px;
@@ -912,11 +902,6 @@ textarea.input {
   }
 }
 
-/* ------------- @MEDIA -------------------- */
+/* ----------- End of Section-5 ----------- */
 
-@media only screen and (max-width: 1000px) {
-  .container {
-    display: flex;
-    flex-wrap: wrap;
-  }
-}
+

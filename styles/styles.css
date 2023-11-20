@@ -531,6 +531,29 @@ ul.show {
   height: 100vh;
 } */
 
+.contact-me{
+  height: 100vh;
+}
+
+.contact-header{
+  display: flex;
+  border: blue 1px solid;
+  width: 100%;
+  /* background-color: #16188a; */
+  padding: 1rem;
+  justify-content: flex-end;
+}
+
+.page-icons-container{
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  width: 20%;
+  border: red 1px solid;
+}
+
+
+/* ----------- Contact Form ----------- */
 .form-container {
   position: relative;
   width: 100%;

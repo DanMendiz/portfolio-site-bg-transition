@@ -332,8 +332,8 @@
   }
 
   .subtext {
-    font-size: 1.7rem;
-    font-weight: 500;
+    font-size: 1.8rem;
+    /* font-weight: 500; */
   }
   .nat-gal-img {
     padding-top: 1.5rem;

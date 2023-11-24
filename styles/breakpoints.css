@@ -344,8 +344,13 @@
 }
 
 @media (min-width: 1500px) {
+  .project-container {
+    gap: 3rem;
+  }
+
   .project-card {
-    height: 92%;
+    height: 88%;
+    width: 23.5%;
   }
 
   .project-heading {

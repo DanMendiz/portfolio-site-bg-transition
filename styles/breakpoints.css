@@ -230,7 +230,7 @@
 
 @media (min-width: 700px) {
   .subtext {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     /* font-weight: 500; */
   }
 }
@@ -278,6 +278,23 @@
     /* width: 50%; */
     height: 48%;
   }
+
+  .nat-gal-img {
+    width: 85%;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .subtext{
+    font-size: 1.7rem;
+  }
+  }
+
+@media (min-width: 1300px) {
+.nat-gal-img {
+  width: 80%;
+}
 }
 
 @media (min-width: 1400px) {

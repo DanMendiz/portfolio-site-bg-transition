@@ -187,10 +187,10 @@
 
 @media (min-width: 1500px) {
   /* applies from 1400px up */
-  /* .lower-card {
+  .lower-card {
     width: 23rem;
     height: 23rem;
-  } */
+  }
 }
 
 /* ------------------------------------ */
@@ -284,21 +284,20 @@
   }
 }
 
-
 @media (min-width: 1200px) {
-  .subtext{
+  .subtext {
     font-size: 1.7rem;
   }
-  }
+}
 
 @media (min-width: 1300px) {
-.nat-gal-img {
-  width: 80%;
-}
+  .nat-gal-img {
+    width: 80%;
+  }
 }
 
 @media (min-width: 1400px) {
-  /* applies from 1200px up */
+  /* applies from 1400px up */
   .sub-section-projects {
     width: 100%;
     height: 100vh;
@@ -344,16 +343,13 @@
 }
 
 @media (min-width: 1500px) {
-  .project-container {
+  /* .project-container {
     gap: 3rem;
-  }
+  } */
 
   .project-card {
     height: 88%;
     width: 23.5%;
-  }
-
-  .project-heading {
   }
 
   .icons-container {

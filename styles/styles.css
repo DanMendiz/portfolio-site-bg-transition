@@ -189,6 +189,7 @@ ul.show {
   /* background-color: #e7eaf6; */
   /* border-radius: 30%; */
   /* box-shadow: 5px 5px 20px 0px rgb(197, 193, 193); */
+  font-family: 'mathlete-bold';
 }
 
 .lower-card {
@@ -241,10 +242,11 @@ ul.show {
 }
 
 .lower-h3 {
+  font-family: 'mathlete-bold';
   /* display: block; */
   /* margin-left: 3rem; */
   /* margin-bottom: 5rem; */
-  font-size: 1.5rem;
+  font-size: 2rem;
   /* border: #ec8b6b 1px solid; */
 }
 
@@ -433,7 +435,7 @@ ul.show {
   /* border: black 1px solid; */
   width: 92.5%;
   height: 80%;
-  border-radius: 3rem; 
+  border-radius: 3rem;
 }
 
 .anchor-container {
@@ -533,11 +535,11 @@ ul.show {
   height: 100vh;
 } */
 
-.contact-me{
+.contact-me {
   height: 100vh;
 }
 
-.contact-header{
+.contact-header {
   display: flex;
   border: blue 1px solid;
   width: 100%;
@@ -546,14 +548,13 @@ ul.show {
   justify-content: flex-end;
 }
 
-.page-icons-container{
+.page-icons-container {
   padding-top: 1rem;
   display: flex;
   justify-content: space-evenly;
   width: 20%;
   border: red 1px solid;
 }
-
 
 /* ----------- Contact Form ----------- */
 .form-container {
@@ -928,5 +929,3 @@ textarea.input {
 }
 
 /* ----------- End of Section-5 ----------- */
-
-

@@ -130,7 +130,7 @@
   /* applies from 1200px up */
 
   .hero-text {
-    font-size: 5rem;
+    font-size: 4rem;
   }
 
   .lower-card {
@@ -185,13 +185,13 @@
   } */
 }
 
-@media (min-width: 1500px) {
+/* @media (min-width: 1500px) {
   /* applies from 1400px up */
-  .lower-card {
+  /* .lower-card {
     width: 23rem;
     height: 23rem;
   }
-}
+} */ 
 
 /* ------------------------------------ */
 /* <!-- SECTION 2 breakpoints-->

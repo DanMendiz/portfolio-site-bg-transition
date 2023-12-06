@@ -357,8 +357,17 @@ ul.show {
   width: 2.5rem;
 }
 
+/* .section-icons:hover {
+background-color: #159b80;
+} */
+
+
 .section-icon-p {
   display: none;
+}
+
+.section-icon-p:hover {
+  text-shadow: 1px 1px 1px #0a0324;
 }
 
 /* .hide {
@@ -929,3 +938,4 @@ textarea.input {
 }
 
 /* ----------- End of Section-5 ----------- */
+

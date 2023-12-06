@@ -348,7 +348,7 @@
   } */
 
   .project-card {
-    height: 95%;
+    height: 90%;
     width: 23.5%;
   }
 
@@ -408,4 +408,20 @@
 
 @media (min-width: 1200px) {
   /* applies from 1200px up */
+}
+
+
+
+
+
+
+
+
+
+
+.grid {
+  display: grid;
+  width: 320px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px 10px;
 }

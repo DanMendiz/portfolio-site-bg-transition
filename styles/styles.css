@@ -338,11 +338,16 @@ ul.show {
 }
 
 .project-h2 {
-  padding-top: 1rem;
-  font-size: 3rem;
-  font-weight: 800;
+  font-family: 'mathlete-bold';
+  /* padding-top: 1rem; */
+  font-size: 4rem;
+  /* font-weight: 800; */
   /* color: red; */
 }
+
+/* .project-h2:hover {
+  font-size: 5rem;
+} */
 
 .icons-container {
   padding-top: 1rem;
@@ -360,7 +365,6 @@ ul.show {
 /* .section-icons:hover {
 background-color: #159b80;
 } */
-
 
 .section-icon-p {
   display: none;
@@ -938,4 +942,3 @@ textarea.input {
 }
 
 /* ----------- End of Section-5 ----------- */
-

@@ -509,6 +509,11 @@ background-color: #159b80;
   border: orange 1px solid;
 }
 
+.tools-skills-heading {
+  font-family: 'mathlete-bold';
+  font-size: 4rem;
+}
+
 /* ---------- End Of Section-3 -------------*/
 
 /* ---------- Section-4 -------------*/
